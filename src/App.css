@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Merienda+One&family=Notable&family=Righteous&display=swap');
+
 body, html {
   height: 100%;
 }
@@ -11,33 +13,63 @@ body, html {
 
 .App {
   text-align: center;
+  font-family: 'Merienda One', cursive;
+  background-image: linear-gradient(to bottom right,#84f2d6,#03c1eb);
 }
 
 .navbar {
-  background-color: lightgreen;
-  box-shadow: 0px 0px 5px green;
+  background-color: black;
+  box-shadow: 0px 0px 5px black;
 }
 
-.bg-img {
+.navbar .nav-item:hover {
+  border-radius: 15px;
+  background-color: #03c1eb ;
+}
+
+.landingpage {
   background-image: url('./Images/jd-mason-xCPdjitY5sQ-unsplash.jpg');
-  min-height: 100vh;
+  min-height: 50vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .landingpage h1 {
+  font-family: 'Fondamento', cursive;
+  font-weight: 900;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
-  font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  left: 9%;
   z-index: 2;
   width: 80%;
   padding: 20px;
   text-align: center;
+}
+
+.start {
+  background-image: linear-gradient(to bottom right,#84f2d6,#03c1eb);
+}
+ 
+.col2 .button:hover {
+  color: white;
+  background-color: black;
+  box-shadow: 0px 0px 3px black;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+}
+
+.footer .social a {
+  color: white;
+}
+
+.footer .social a:hover {
+  color: #03c1eb;
 }
