@@ -17,7 +17,7 @@ function LandingPage(props) {
                    className="button my-3" 
                    variant="outline-dark" 
                    size="lg" 
-                   onClick={() => props.history.push('/services')}>Start Today</Button>
+                   onClick={() => props.history.push('/servicescards')}>Start Today</Button>
                  </Col>
                </Row>
            </Container>

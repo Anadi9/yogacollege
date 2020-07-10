@@ -6,8 +6,8 @@ import NavBar from './Components/Navbar';
 import LandingPage from './Components/LandingPage';
 import Footer from './Components/Footer';
 import About from './Content/About';
-import Services from './Content/Services';
 import Gallery from './Content/Gallery';
+import ServicesCards from './Content/ServicesCards';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={LandingPage}/>
           <Route path="/about" component={About}/>
-          <Route path="/services" component={Services}/>
+          <Route path="/servicescards" component={ServicesCards}/>
           <Route path="/gallery" component={Gallery}/>
         </Switch>
       <Footer/>
