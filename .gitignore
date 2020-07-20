@@ -4,6 +4,9 @@
 /node_modules
 /.env
 /.pnp
+/.firebase
+/.firebaserc
+/firebase.json
 .pnp.js
 
 # testing
