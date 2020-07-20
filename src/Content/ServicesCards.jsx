@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Card, Row, Col, Image } from 'react-bootstrap';
+import { Container, Row, Col, Image } from 'react-bootstrap';
 import Services from './../Service/Services';
 
 function ServicesCards(props) {
